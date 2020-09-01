@@ -18,7 +18,8 @@ function Header() {
             </div>
             <div className="header__search">
                 <SearchIcon />
-                <input 
+                <input
+                className="search-query" 
                 placeholder="Search UnNamed Developers"
                 type="text"
                 />

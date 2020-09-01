@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px, 0px;
+    padding: 10px 0;
     color: white;
     background-color: var(--slack-color);
 }
@@ -30,10 +30,14 @@
 }
 
 .header__search > input {
-    border-color: transparent;
+    background-color: transparent;
     border: none;
     text-align: center;
     min-width: 35vw;
+}
+
+.header__search > input.search-query {
+    color:white;
 }
 
 .header__right {
@@ -44,7 +48,7 @@
 }
 
 .header__avatar {
-    padding: 0px;
+    padding: 0;
 }
 
 .header__right > .MuiSvgIcon-root {
