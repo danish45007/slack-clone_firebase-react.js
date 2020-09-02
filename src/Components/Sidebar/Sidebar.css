@@ -1,0 +1,10 @@
+.sidebar {
+    background-color: var(--slack-color);
+    max-width: 260px;
+    border-top: 1px  soild black;
+    color: white;
+}
+
+.sidebar__header {
+    display: flex;
+}

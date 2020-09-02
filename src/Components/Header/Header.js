@@ -11,18 +11,19 @@ function Header() {
             <div className="header__left">
                 <Avatar 
                 className="header__avatar"
+                variant="square"
                 // alt={user?.displayName}
                 // src={user?.photoUrl}
                 />
                 <AccessTimeIcon />
             </div>
             <div className="header__search">
-                <SearchIcon />
                 <input
                 className="search-query" 
                 placeholder="Search UnNamed Developers"
                 type="text"
                 />
+                <SearchIcon />
             </div>
             <div className="header__right">
                 <HelpOutlineIcon />

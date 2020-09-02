@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 0;
+    padding: 8px 0;
     color: white;
     background-color: var(--slack-color);
 }
@@ -34,6 +34,8 @@
     border: none;
     text-align: center;
     min-width: 35vw;
+    outline: none;
+    font-size: 14px;
 }
 
 .header__search > input.search-query {

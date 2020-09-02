@@ -8,13 +8,17 @@ function Sidebar() {
     return (
         <div className="sidebar">
             <div className="sidebar__header">
-                <h2>UnNamed Developers
-                </h2>
-                <h3>
-                    <FiberManualRecordIcon />
-                    Danish
-                </h3>
-            </div>          
+                <div className="sidebar__info">
+                    <h3>UnNamed Developers</h3>
+                    <h3>
+                        <FiberManualRecordIcon />
+                        Danish
+                    </h3>
+                    <div>
+                        <CreateIcon />
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
