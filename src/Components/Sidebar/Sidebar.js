@@ -9,14 +9,14 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar__header">
                 <div className="sidebar__info">
-                    <h3>UnNamed Developers</h3>
+                    <h2>UnNamed Dev</h2>
                     <h3>
                         <FiberManualRecordIcon />
                         Danish
                     </h3>
-                    <div>
-                        <CreateIcon />
-                    </div>
+                </div>
+                <div className="create">
+                    <CreateIcon />
                 </div>
             </div>
         </div>
