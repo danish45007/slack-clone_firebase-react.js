@@ -7,7 +7,7 @@
 
 .sidebar__header {
     display: flex;
-    border-bottom: 1px soild #49274b;
+    border-bottom: 1px solid #49274b;
     padding-bottom: 10px;
     padding: 13px;
 }
@@ -36,7 +36,6 @@
     margin-right: 2px;
     color: green;
 } 
-
 
 .create > .MuiSvgIcon-root {
     padding: 8px;
