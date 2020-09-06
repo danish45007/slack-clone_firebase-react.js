@@ -59,7 +59,7 @@ function Sidebar() {
                 <hr className="hr" />
                 <SidebarOption Icon={AddIcon} title="Add channels" />
                 {channels.map(channel => (
-                    <SidebarOption title={channel.name} />
+                    <SidebarOption title={channel.name} key={channel.id} />
                 ))}
             </div>
         </div>
