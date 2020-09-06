@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, { useState,useEffect } from 'react';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import CreateIcon from '@material-ui/icons/Create';
 import "./Sidebar.css";
@@ -21,6 +21,7 @@ function Sidebar() {
 
     useEffect(() => {
         db.collection("rooms").onSnapshot((snapshot) => (
+            // setting the channel with an obj as (id,name)
             setChannels(snapshot.docs.map(doc => ({
                 id: doc.id,
                 name: doc.data().name
@@ -57,7 +58,6 @@ function Sidebar() {
                 <SidebarOption Icon={ExpandMoreIcon} title="Channels" />
                 <hr className="hr" />
                 <SidebarOption Icon={AddIcon} title="Add channels" />
-                {console.log(channels)}
                 {channels.map(channel => (
                     <SidebarOption title={channel.name} />
                 ))}

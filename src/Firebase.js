@@ -8,7 +8,9 @@ const firebaseConfig = {
     storageBucket: "slack-clone-decbf.appspot.com",
     messagingSenderId: "924473699353",
     appId: "1:924473699353:web:8da4efad555798d8e74e88",
-    measurementId: "G-KMLELZCZ5Q"
+    measurementId: "G-KMLELZCZ5Q",
+    userProfile: null,
+    logErrors: false
   };
 
 // connecting to the firestore DB
