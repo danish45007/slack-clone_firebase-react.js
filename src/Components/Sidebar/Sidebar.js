@@ -15,6 +15,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import AddIcon from '@material-ui/icons/Add';
 import db from '../../Firebase';
 
+
 function Sidebar() {
 
     const [channels, setChannels] = useState([]);
